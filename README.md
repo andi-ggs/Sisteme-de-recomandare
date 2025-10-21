@@ -1,7 +1,6 @@
 # Sisteme-de-recomandare
 Sisteme de recomandare, master eGov, anul 1.
 
-
 This Python script uploads country data from a CSV file generated through data.world website into a Recombee database. It connects to the Recombee account using database ID, private token, and region, then clears existing items before adding new ones from the provided CSV file.
 
 To run it, the recombee-api-client library needs to be locally installed using the command pip install recombee-api-client. The CSV file, named tari.csv, should include the columns country, capital, area, and continent.
